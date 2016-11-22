@@ -1,0 +1,27 @@
+﻿生成启动时间为 2016/11/4 17:31:52。
+     1>项目“C:\Users\DELL\Desktop\code\for FGOALS-g2\PDD_VCPP\PDD_VCPP\PDD_VCPP.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\PDD_VCPP.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PDD_V1.0.cpp
+         PDD_V1.0.cpp
+     1>c:\users\dell\desktop\code\for fgoals-g2\pdd_vcpp\pdd_vcpp\pdd_v1.0.cpp(24): warning C4101: “c”: 未引用的局部变量
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\PDD_VCPP.exe.embed.manifest.res" Debug\PDD_VCPP_manifest.rc 
+       Link:
+         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DELL\Desktop\code\for FGOALS-g2\PDD_VCPP\Debug\PDD_VCPP.exe" /INCREMENTAL /NOLOGO libgsl.lib libgslcblas.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\PDD_VCPP.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\DELL\Desktop\code\for FGOALS-g2\PDD_VCPP\Debug\PDD_VCPP.pdb" /SUBSYSTEM:CONSOLE /STACK:"10485760" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DELL\Desktop\code\for FGOALS-g2\PDD_VCPP\Debug\PDD_VCPP.lib" /MACHINE:X86 Debug\PDD_VCPP.exe.embed.manifest.res
+         Debug\PDD_V1.0.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\PDD_VCPP.exe.embed.manifest" /manifest Debug\PDD_VCPP.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         PDD_VCPP.vcxproj -> C:\Users\DELL\Desktop\code\for FGOALS-g2\PDD_VCPP\Debug\PDD_VCPP.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\PDD_VCPP.unsuccessfulbuild”。
+         正在对“Debug\PDD_VCPP.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\DELL\Desktop\code\for FGOALS-g2\PDD_VCPP\PDD_VCPP\PDD_VCPP.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.59
