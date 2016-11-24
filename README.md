@@ -1,6 +1,6 @@
 For Surface Mass Balance & SND
 ==============================
-There are some NCL scripts for calculating surface mass balance and snow depth of 8 models (CCSM4, CNRM-CM5, FGOALS-g2, GISS-E2-R, IPSL-CM5A-LR, MIROC-ESM, MPI-ESM-P, MRI-CGCM3). Before calculating surface mass balance, we should get PDD (Positive Degree Day).
+There are some NCL scripts for calculating surface mass balance and snow depth of 8 models (CCSM4, CNRM-CM5, FGOALS-g2, GISS-E2-R, IPSL-CM5A-LR, MIROC-ESM, MPI-ESM-P, MRI-CGCM3). And before calculating surface mass balance, we should get PDD (Positive Degree Day).
 ##Steps of calculating PDD:
 (1) Run test.ncl to get re_monthlydata.txt;
 (2) Run prsn_output.ncl to get tprsn.txt;
