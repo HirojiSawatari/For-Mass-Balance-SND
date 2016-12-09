@@ -229,12 +229,12 @@ int main(void)
 	for (j=0;j<128;j++) {
         for (k=0;k<256;k++) {
 
-			if (sftgif[j][k] = 0)	//re_sft的值等于0？ 
+			if (sftgif[j][k] == 0)	//re_sft的值等于0？ 
 			{
 				if (pr[j][k]-prsn[j][k] < 0)
 					BLC[j][k] = -MSnow[j][k];
 				else 
-					BLC[j][k] = (pr[j][k]-prsn[j][k]) - MSnow[j][k];
+					BLC[j][k] = prsn[j][k] - MSnow[j][k];
 			}
 			else
 				BLC[j][k] = pr[j][k] - MSnow[j][k];
